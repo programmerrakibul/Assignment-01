@@ -263,3 +263,54 @@ img {
 .focus-content img {
   border-radius: 48px;
 }
+
+/* Contact Area Styles */
+.contact-details {
+  padding: 71px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.contact-title h2 {
+  font-size: 80px;
+}
+
+.contact-form {
+  width: 467px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-field label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.form-field input,
+.form-field textarea {
+  padding: 20px 32px;
+  border: none;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px #d6dded;
+  font-size: 17px;
+  color: #00000050;
+}
+
+.form-field input::placeholderm, .form-field textarea::placeholder {
+  color: #00000050;
+}
+
+
+/* Footer Area Styles */

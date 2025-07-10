@@ -1,0 +1,107 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Common Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #252432;
+  background: #fff;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.3;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main section{
+  margin-bottom: 60px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-primary {
+  color: #4e47ff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: #fff;
+  background-color: #4e47ff;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: #252432;
+  background-color: #e8e800d0;
+  transform: scale(1.05);
+}
+
+/* Header Area Styles */
+#header {
+  background: url("../assets/Hero-bg.png") no-repeat center center/cover;
+}
+
+/* Navbar Area Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.navbar a {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+}
+
+/* Banner Area Styles */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 558px;
+}
+
+.banner h1 {
+  font-size: 65px;
+  font-weight: 800;
+  margin-bottom: 37px;
+}
+
+
+/* Action Area Styles */

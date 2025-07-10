@@ -17,8 +17,17 @@ body {
   font-weight: 400;
 }
 
-main section{
-  margin-bottom: 60px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
+
+main section {
+  margin-top: 80px;
 }
 
 ul {
@@ -99,9 +108,26 @@ img {
 
 .banner h1 {
   font-size: 65px;
-  font-weight: 800;
   margin-bottom: 37px;
 }
 
-
 /* Action Area Styles */
+.action-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-txt h2 {
+  font-size: 42px;
+  margin-bottom: 17px;
+}
+
+.action-txt p {
+  margin-bottom: 17px;
+  color: #25243250;
+}
+
+.action-img img {
+  border-radius: 48px;
+}

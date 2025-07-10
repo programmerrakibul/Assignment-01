@@ -118,16 +118,54 @@ img {
   justify-content: space-between;
 }
 
+.action-txt {
+  width: 50%;
+}
+
 .action-txt h2 {
   font-size: 42px;
   margin-bottom: 17px;
 }
 
 .action-txt p {
+  font-size: 21px;
   margin-bottom: 17px;
   color: #25243250;
 }
 
 .action-img img {
   border-radius: 48px;
+}
+
+/* Productive User Area Styles */
+.productive-content {
+  padding: 50px 80px;
+  border-radius: 24px;
+  background-color: #4e47ff10;
+}
+
+.productive-content h2 {
+  font-size: 38px;
+  margin-bottom: 26px;
+}
+
+.productive-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productive-item {
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.productive-item h3 {
+  font-size: 70px;
+  margin-bottom: 7px;
+}
+
+.productive-item span {
+  font-size: 20px;
+  color: #00000050;
 }

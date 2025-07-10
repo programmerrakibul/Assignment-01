@@ -274,12 +274,16 @@ img {
   font-family: "Inter", sans-serif;
 }
 
+.contact-title {
+  width: 48%;
+}
+
 .contact-title h2 {
   font-size: 80px;
 }
 
 .contact-form {
-  width: 467px;
+  width: 48%;
   display: flex;
   flex-direction: column;
   gap: 20px;
